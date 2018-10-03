@@ -8,6 +8,13 @@
     "watch": "cd src && CHOKIDAR_USEPOLLING=1 parcel --no-hmr --no-cache --out-dir ../dist -p 3333 index.html"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.10.1"
+    "@vue/component-compiler-utils": "^2.2.0",
+    "less": "^3.8.1",
+    "parcel-bundler": "^1.10.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.0",
+    "vue": "^2.5.17"
   }
 }
