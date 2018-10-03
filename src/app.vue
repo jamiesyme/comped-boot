@@ -3,7 +3,7 @@
 </template>
 
 <script>
-	import CmdBar from './widgets/cmd-bar';
+	import CmdBar from './components/cmd-bar';
 
 	export default {
 		components: {
