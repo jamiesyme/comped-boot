@@ -45,6 +45,7 @@
 			font-style: italic;
 			opacity: 1;
 			transition: inherit;
+			text-align: center;
 		}
 	}
 </style>
