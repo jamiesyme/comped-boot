@@ -1,13 +1,16 @@
 <template>
 	<cmd-bar></cmd-bar>
+	<component-viewer></component-viewer>
 </template>
 
 <script>
 	import CmdBar from './components/cmd-bar';
+	import ComponentViewer from './components/pages/component-viewer';
 
 	export default {
 		components: {
 			CmdBar,
+			ComponentViewer,
 		},
 
 		data() {
