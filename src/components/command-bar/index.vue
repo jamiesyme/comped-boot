@@ -1,5 +1,5 @@
 <template>
-	<div class="cmd-bar">
+	<div class="command-bar">
 		<input
 			type="text"
 			placeholder="Enter a command...">
@@ -10,7 +10,7 @@
 </script>
 
 <style lang="less" scoped>
-	.cmd-bar {
+	.command-bar {
 		padding: 2rem;
 		background-color: #404040;
 		box-shadow: 0 0 0.3rem #333;
